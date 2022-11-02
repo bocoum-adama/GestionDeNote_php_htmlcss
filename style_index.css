@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    background-color: #fcd37d;
+    height: 200px;
+}
+
+header{
+    background: url('image/logoinstu.jpg');
+    background-size: 1450px;
+    height: 260px;
+    margin-top: 0%;
+}
+#logo{
+    width: 180px;
+    
+}
+
+#Connecter{
+    float: right;
+    margin-top: 2px;
+    
+}
+button:hover {
+    background-color: blue;
+}
+button{
+      display: inline-block;
+      background-color: #c78e13;
+      border-radius: 10px;
+      border: 4px double #cccccc;
+      color: #eeeeee;
+      text-align: center;
+      font-size: 15px;
+      padding: 10px;
+      width: 150px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+}
+/*---------------------------------------------------------------------------*/
+
+
+#logoReseauSociaux{
+    margin-top: 50px;
+    right: 0px;
+    float: right;
+    width: 50px;
+    height: 160px;
+    position: fixed;
+
+}
+
+#caroussel{
+    width: 650px;
+    border: solid #f8e4ba;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    margin-top: 0px;
+    animation-duration: 20s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+    transition-duration: 0s;
+}
+
+
+@keyframes mesImages {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0);
+    } 
+}
+
+/*---------------------------------------------------------------------------*/
+footer{
+    background-color:#556e55;
+    height: 210px;
+    margin-bottom: 0%;
+}
+h2{
+    font-weight: bolder;
+}
+#Contact{
+    float: left;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 0%;
+    color: white;
+}
+#Pages{
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 0%;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover {
+    background-color: blue;
+}
+#menu{
+    float: left;
+    margin-top: 80px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-right: 20px;
+    color: white;
+}
